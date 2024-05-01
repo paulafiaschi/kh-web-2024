@@ -14,5 +14,18 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
+  // daisyUI config (optional - here are the default values)
+  daisyui: {
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          primary: "blue",
+          secondary: "teal",
+        },
+      },
+    ],
+    
+  },
 };
