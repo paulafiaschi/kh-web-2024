@@ -3,14 +3,14 @@ export default function Hero() {
     <div
       className="hero min-h-screen"
       style={{
-        backgroundImage:
-          "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+        backgroundImage: "url(/ladies-men-2023.jpg)",
+        backgroundPosition: "center bottom",
       }}
     >
-      <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">
+      <div className="hero-overlay bg-opacity-40"></div>
+      <div className="hero-content text-center text-white">
+        <div className="max-w-xl">
+          <h1 className="mb-5 text-6xl font-bold">
             Welcome to our Hockey Club in Copenhagen!
           </h1>
           <p className="mb-5">
@@ -19,7 +19,9 @@ export default function Hero() {
             us for exciting matches and social activities!
           </p>
           <button className="btn btn-primary">Learn More</button>
-          <button className="btn btn-outline btn-primary">Contact Us</button>
+          <button className="btn btn-outline btn-primary ml-3">
+            Contact Us
+          </button>
         </div>
       </div>
     </div>

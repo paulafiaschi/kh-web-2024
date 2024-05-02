@@ -1,14 +1,17 @@
 import Image from "next/image";
+import Carousel from "./Carousel";
 
-export default function Section3() {
+export default function CarouselSection() {
   return (
     <section className="justify-center">
       <Image
-        src="/next.svg"
-        width={500}
+        src="/social2.jpeg"
+        width={600}
         height={500}
         alt="Picture of the author"
       />
+
+      {/* <Carousel /> */}
       <div>
         <h2>
           From team outings to community events, we foster a strong sense of

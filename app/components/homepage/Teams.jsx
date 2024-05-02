@@ -1,11 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Teams() {
   return (
-    <section className="teams">
-      <div className="team">
+    <section className="teams highlightSection">
+      <h2>Meet our Teams</h2>
+      <Link className="team" href="/teams">
         <Image
-          src="/next.svg"
+          src="/ladies2023.jpg"
           width={500}
           height={500}
           alt="Picture of the author"
@@ -17,10 +19,10 @@ export default function Teams() {
             determination and teamwork to every game in the top division.
           </p>
         </div>
-      </div>
-      <div className="team">
+      </Link>
+      <Link className="team" href="/teams">
         <Image
-          src="/next.svg"
+          src="/men-2024.jpg"
           width={500}
           height={500}
           alt="Picture of the author"
@@ -32,10 +34,10 @@ export default function Teams() {
             showcasing their skills and passion for the sport.
           </p>
         </div>
-      </div>
-      <div className="team">
+      </Link>
+      <Link className="team" href="/teams">
         <Image
-          src="/next.svg"
+          src="/youth.jpg"
           width={500}
           height={500}
           alt="Picture of the author"
@@ -47,10 +49,10 @@ export default function Teams() {
             fostering a love for the game.
           </p>
         </div>
-      </div>
-      <div className="team">
+      </Link>
+      <Link className="team" href="/teams">
         <Image
-          src="/next.svg"
+          src="/masters2024.jpg"
           width={500}
           height={500}
           alt="Picture of the author"
@@ -62,7 +64,7 @@ export default function Teams() {
             passion for the game.
           </p>
         </div>
-      </div>
+      </Link>
     </section>
   );
 }

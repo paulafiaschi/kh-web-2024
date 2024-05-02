@@ -14,9 +14,9 @@ export default function Section2() {
         </p>
       </div>
       <Image
-        src="/next.svg"
-        width={500}
-        height={500}
+        src="/ladies-men-indoor.jpg"
+        width={700}
+        height={700}
         alt="Picture of the author"
       />
     </section>

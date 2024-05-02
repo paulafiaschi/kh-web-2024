@@ -1,6 +1,8 @@
+import Image from "next/image";
+import Link from "next/link";
 export default function Nav() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 sticky top-0 drop-shadow-sm z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,46 +26,33 @@ export default function Nav() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <a>About Us</a>
             </li>
             <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <a>Teams</a>
             </li>
-            <li>
+            {/* <li>
               <a>Item 3</a>
-            </li>
+            </li> */}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link href="/" className="logo">
+          <Image
+            src="/KH-Logo.svg"
+            width={50}
+            height={50}
+            alt="Picture of the author"
+          />
+          Københavns Hockeyklub
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <Link href="/about">About Us</Link>
           </li>
           <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
+            <Link href="/teams">Teams</Link>
           </li>
         </ul>
       </div>
