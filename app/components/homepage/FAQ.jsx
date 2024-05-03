@@ -43,7 +43,7 @@ export default function FAQ() {
 
       <p className="mt-16 text-3xl font-bold">Still have questions?</p>
       <p>Feel free to reach out to us.</p>
-      <button className="btn btn-primary mt-4">Primary</button>
+      <button className="btn btn-secondary mt-4">Contact Us</button>
     </section>
   );
 }

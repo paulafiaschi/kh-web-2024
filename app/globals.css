@@ -6,6 +6,7 @@
 
 html {
   background-color: white;
+  color: #031641;
 }
 
 .logo {
@@ -28,7 +29,6 @@ section h2 {
 }
 
 .highlightSection {
-  /* grid-template-columns: 1.5fr 1fr; */
   background-color: rgb(8, 47, 133);
   color: white;
 }
@@ -57,4 +57,14 @@ h3 {
 
 .collapse.collapse-arrow {
   border-bottom: solid 1px rgb(16, 100, 179);
+}
+
+@media only screen and (max-width: 767px) {
+  section,
+  .teams {
+    grid-template-columns: 1fr;
+  }
+  .team {
+    grid-column: 1/3;
+  }
 }

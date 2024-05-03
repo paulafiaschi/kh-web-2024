@@ -9,7 +9,7 @@ export default function JoinUs() {
           Experience the thrill of competitive hockey and join our vibrant
           community of players.
         </p>
-        <button className="btn btn-primary">Primary</button>
+        <button className="btn btn-primary">Contact Us</button>
       </div>
       <Image
         src="/ladies-men-2023.jpg"
