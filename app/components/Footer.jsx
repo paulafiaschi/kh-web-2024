@@ -1,15 +1,24 @@
+import Link from "next/link";
+import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Footer() {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content">
       <nav>
-        <h6 className="footer-title">Services</h6>
-        <a className="link link-hover">Branding</a>
-        <a className="link link-hover">Design</a>
-        <a className="link link-hover">Marketing</a>
-        <a className="link link-hover">Advertisement</a>
+        <Link href="/" className="logo ">
+          <Image
+            src="/KH-Logo.svg"
+            width={50}
+            height={50}
+            alt="Picture of the author"
+          />
+          Københavns Hockeyklub
+        </Link>
       </nav>
       <nav>
-        <h6 className="footer-title">Company</h6>
+        <h6 className="footer-title">Follow us</h6>
+        <FontAwesomeIcon icon="fa-brands fa-facebook" />
         <a className="link link-hover">About us</a>
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">Jobs</a>

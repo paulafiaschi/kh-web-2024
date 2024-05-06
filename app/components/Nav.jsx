@@ -25,14 +25,14 @@ export default function Nav() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>About Us</a>
+              <Link href="/about">About Us</Link>
             </li>
             <li>
-              <a>Teams</a>
+              <Link href="/teams">Teams</Link>
             </li>
-            {/* <li>
-              <a>Item 3</a>
-            </li> */}
+            <li>
+              <Link href="#FAQ">FAQ</Link>
+            </li>
           </ul>
         </div>
         <Link href="/" className="logo ">
@@ -52,6 +52,9 @@ export default function Nav() {
           </li>
           <li>
             <Link href="/teams">Teams</Link>
+          </li>
+          <li>
+            <Link href="#FAQ">FAQ</Link>
           </li>
         </ul>
       </div>
