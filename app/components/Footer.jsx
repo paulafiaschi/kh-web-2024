@@ -16,7 +16,7 @@ export default function Footer() {
         </Link>
 
         <form className="mt-8">
-          <h6 className="footer-title">Newsletter</h6>
+          <h3 className="footer-title text-lg pl-1">Newsletter</h3>
           <fieldset className="form-control w-80">
             <label className="label">
               <span className="label-text text-white">
@@ -35,7 +35,10 @@ export default function Footer() {
         </form>
 
         <div className="footer-social">
-          <Link href="/" className=" link link-hover">
+          <Link
+            href="https://www.facebook.com/Copenhagenhockeyclub"
+            className=" link link-hover"
+          >
             <Image
               src="/facebook.svg"
               width={30}

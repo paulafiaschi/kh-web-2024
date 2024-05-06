@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Section2() {
   return (
-    <section className="justify-center">
+    <section className="justify-center" id="findOut">
       <div>
         <h2>
           Celebrating Success: Our Journey in the Top Division of Danish Hockey

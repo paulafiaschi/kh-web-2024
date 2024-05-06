@@ -4,12 +4,9 @@ export default function SubHero(props) {
     <div className="hero py-24 highlightSection">
       <div className="hero-content text-center">
         <div className="max-w-md">
-          <p className="text-xs	mb-3 tracking-widest	">UNITE</p>
-          <h1 className="text-5xl font-bold">Our Amazing Teams</h1>
-          <p className="py-6">
-            Discover our diverse teams, from Men&apos;s and Women&apos;s to
-            Youth and Masters.
-          </p>
+          <p className="text-xs	mb-3 tracking-widest	">{props.word}</p>
+          <h1 className="text-5xl font-bold">{props.title}</h1>
+          <p className="py-6">{props.subtitle}</p>
         </div>
       </div>
     </div>

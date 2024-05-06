@@ -48,7 +48,10 @@ export default function Nav() {
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link href="/about">About Us</Link>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
           </li>
           <li>
             <Link href="/teams">Teams</Link>

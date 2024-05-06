@@ -1,12 +1,18 @@
 import SubHero from "../components/teams/SubHero";
 import Image from "next/image";
 import TeamCard from "../components/teams/TeamCard";
+import JoinSection from "../components/teams/JoinSection";
+import FAQ from "../components/homepage/FAQ";
 
 export default function Teams() {
   return (
     <>
       <main>
-        <SubHero title="Meet our Teams" />
+        <SubHero
+          title="Our Amazing Teams"
+          subtitle="Discover our diverse teams, from Men's and Women's to Youth and Masters."
+          word="UNITE"
+        />
       </main>
       <section className="justify-center">
         <TeamCard
@@ -34,39 +40,11 @@ export default function Teams() {
           contact="morten@kh.com"
         />
       </section>
-      <section className="justify-center">
-        <div>
-          <p className="text-xs	mb-3 tracking-widest">JOIN</p>
-          <h2 className="text-5xl">
-            Experience the camaraderie and growth of a team
-          </h2>
-        </div>
-        <p>
-          Joining a team at our Hockey Club in Copenhagen offers numerous
-          benefits. You&apos;ll have the opportunity to experience the
-          <b>camaraderie</b> and growth that comes from being part of a team.
-          <br></br>
-          Whether you&apos;re a beginner or an experienced player, our teams
-          provide a supportive and inclusive environment where you can improve
-          your <b>skills</b>, compete at the top division in Denmark, and make
-          lasting friendships. <br></br>
-          <b>
-            Join us and be part of our international community of passionate
-            hockey players.
-          </b>
-        </p>
-        <Image
-          src="/ladies-men-2023.jpg"
-          width={900}
-          height={900}
-          alt="Picture of the author"
-          style={{ gridColumn: "1/3", margin: "auto" }}
-        />
-      </section>
+      <JoinSection />
       <section className="justify-center">
         <div>
           <p className="text-xs	mb-3 tracking-widest">PASSIONATE</p>
-          <h2 className="text-5xl">
+          <h2 className="text-3xl md:text-5xl">
             Building Inclusive and International Teams
           </h2>
         </div>
@@ -77,6 +55,7 @@ export default function Teams() {
           and excel in the sport.
         </p>
       </section>
+      <FAQ />
     </>
   );
 }

@@ -6,7 +6,12 @@ export default function FAQ() {
     <section className="block" id="FAQ">
       <h2>FAQ</h2>
       <div className="collapse collapse-arrow rounded-none">
-        <input type="radio" name="my-accordion-1" defaultChecked />
+        <input
+          type="radio"
+          name="my-accordion-1"
+          defaultChecked
+          aria-labelledby="location"
+        />
         <div className="collapse-title text-xl font-medium">
           Where is the club?
         </div>
@@ -15,7 +20,7 @@ export default function FAQ() {
             The club is located in Valby&nbsp;
             <Link
               href={"https://maps.app.goo.gl/W9TT7hntD374WmXF9"}
-              className="link link-info"
+              className="link link-accent"
             >
               (Valby Idrætspark, Ellebjergvej, 2450 København)
             </Link>
@@ -23,7 +28,7 @@ export default function FAQ() {
         </div>
       </div>
       <div className="collapse collapse-arrow rounded-none">
-        <input type="radio" name="my-accordion-1" />
+        <input type="radio" name="my-accordion-1" aria-labelledby="join" />
         <div className="collapse-title text-xl font-medium">
           How can I join?
         </div>
@@ -38,7 +43,11 @@ export default function FAQ() {
         </div>
       </div>
       <div className="collapse collapse-arrow rounded-none">
-        <input type="radio" name="my-accordion-1" />
+        <input
+          type="radio"
+          name="my-accordion-1"
+          aria-labelledby="practiceTime"
+        />
         <div className="collapse-title text-xl font-medium">
           When are the practices?
         </div>
@@ -53,7 +62,7 @@ export default function FAQ() {
         </div>
       </div>
       <div className="collapse collapse-arrow rounded-none">
-        <input type="radio" name="my-accordion-1" />
+        <input type="radio" name="my-accordion-1" aria-labelledby="fee" />
         <div className="collapse-title text-xl font-medium">
           Are there any fees?
         </div>
@@ -65,7 +74,7 @@ export default function FAQ() {
         </div>
       </div>
       <div className="collapse collapse-arrow rounded-none">
-        <input type="radio" name="my-accordion-1" />
+        <input type="radio" name="my-accordion-1" aria-labelledby="equipment" />
         <div className="collapse-title text-xl font-medium">
           I don&apos; have any hockey gear with me. Can I borrow from the club?
         </div>
@@ -78,7 +87,7 @@ export default function FAQ() {
         </div>
       </div>
       <div className="collapse collapse-arrow rounded-none">
-        <input type="radio" name="my-accordion-1" />
+        <input type="radio" name="my-accordion-1" aria-labelledby="seasons" />
         <div className="collapse-title text-xl font-medium">
           Do you play both Indoor and Outdoor?
         </div>
@@ -92,7 +101,13 @@ export default function FAQ() {
 
       <p className="mt-16 text-3xl font-bold">Still have questions?</p>
       <p>Feel free to reach out to us.</p>
-      <button className="btn btn-secondary mt-4">Contact Us</button>
+      <Link
+        href="https://www.facebook.com/Copenhagenhockeyclub"
+        target="_blank"
+        className="btn btn-accent mt-4"
+      >
+        Contact Us
+      </Link>
     </section>
   );
 }

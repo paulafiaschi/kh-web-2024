@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function JoinUs() {
   return (
@@ -9,7 +10,13 @@ export default function JoinUs() {
           Experience the thrill of competitive hockey and join our vibrant
           community of players.
         </p>
-        <button className="btn btn-primary">Contact Us</button>
+        <Link
+          href="https://www.facebook.com/Copenhagenhockeyclub"
+          target="_blank"
+          className="btn btn-primary"
+        >
+          Contact Us
+        </Link>
       </div>
       <Image
         src="/ladies-men-2023.jpg"

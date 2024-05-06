@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Hero() {
   return (
     <div
@@ -9,8 +10,8 @@ export default function Hero() {
     >
       <div className="hero-overlay bg-opacity-40"></div>
       <div className="hero-content text-center text-white">
-        <div className="max-w-xl">
-          <h1 className="mb-5 text-6xl font-bold">
+        <div className="lg:max-w-xl">
+          <h1 className="mb-5 text-5xl lg:text-6xl font-bold">
             Welcome to our Hockey Club in Copenhagen!
           </h1>
           <p className="mb-5">
@@ -18,10 +19,16 @@ export default function Hero() {
             players come together to play in the top division of Denmark. Join
             us for exciting matches and social activities!
           </p>
-          <button className="btn btn-primary">Learn More</button>
-          <button className="btn btn-outline btn-primary ml-3">
+          <Link href="#findOut" className="btn btn-primary">
+            Learn More
+          </Link>
+          <Link
+            href="https://www.facebook.com/Copenhagenhockeyclub"
+            target="_blank"
+            className="btn btn-outline btn-primary ml-3"
+          >
             Contact Us
-          </button>
+          </Link>
         </div>
       </div>
     </div>
