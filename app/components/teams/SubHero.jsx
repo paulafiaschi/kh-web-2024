@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function SubHero(props) {
   return (
-    <div className="hero py-24 bg-base-200">
+    <div className="hero py-24 highlightSection">
       <div className="hero-content text-center">
         <div className="max-w-md">
           <p className="text-xs	mb-3 tracking-widest	">UNITE</p>

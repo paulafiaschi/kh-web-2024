@@ -13,17 +13,25 @@ export default function Teams() {
           team="Women's"
           image="ladies2023.jpg"
           time="Tue and Thu 18:30 - 20:00"
+          contact="faybrasser@gmail.com"
         />
         <TeamCard
           team="Men's"
           image="men-2024.jpg"
           time="Tue and Thu 19:30 - 21:30"
+          contact="morten@kh.com"
         />
-        <TeamCard team="Youth" image="youth.jpg" time="Thu 17:30 - 18:30" />
+        <TeamCard
+          team="Youth"
+          image="youth.jpg"
+          time="Thu 17:30 - 18:30"
+          contact="morten@kh.com"
+        />
         <TeamCard
           team="Masters'"
           image="masters2024.jpg"
           time="Thu 18:30 - 20:00"
+          contact="morten@kh.com"
         />
       </section>
       <section className="justify-center">
@@ -36,12 +44,16 @@ export default function Teams() {
         <p>
           Joining a team at our Hockey Club in Copenhagen offers numerous
           benefits. You&apos;ll have the opportunity to experience the
-          camaraderie and growth that comes from being part of a team. Whether
-          you&apos;re a beginner or an experienced player, our teams provide a
-          supportive and inclusive environment where you can improve your
-          skills, compete at the top division in Denmark, and make lasting
-          friendships. Join us and be part of our international community of
-          passionate hockey players.
+          <b>camaraderie</b> and growth that comes from being part of a team.
+          <br></br>
+          Whether you&apos;re a beginner or an experienced player, our teams
+          provide a supportive and inclusive environment where you can improve
+          your <b>skills</b>, compete at the top division in Denmark, and make
+          lasting friendships. <br></br>
+          <b>
+            Join us and be part of our international community of passionate
+            hockey players.
+          </b>
         </p>
         <Image
           src="/ladies-men-2023.jpg"
