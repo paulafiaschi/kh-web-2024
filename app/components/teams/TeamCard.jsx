@@ -30,6 +30,13 @@ export default function TeamCard(props) {
             </p>
           </Link>
         </div>
+        <Link
+          href={props.form}
+          target="_blank"
+          className="btn btn-accent pl-7 mt-4"
+        >
+          Join the {props.team} Team &#9656;
+        </Link>
       </div>
     </div>
   );

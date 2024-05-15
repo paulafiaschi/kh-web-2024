@@ -7,7 +7,8 @@ const noto_sans = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Københavns Hockeyklub",
-  description: "",
+  description:
+    "Discover Copenhagen's vibrant hockey community at our historic club, committed to fostering the sport's legacy and welcoming players of every age and skill level. Embrace the thrill of hockey and join our inclusive community for an unforgettable experience",
 };
 
 export default function RootLayout({ children }) {

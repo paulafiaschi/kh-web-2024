@@ -20,24 +20,28 @@ export default function Teams() {
           image="ladies2023.jpg"
           time="Tue and Thu 18:30 - 20:00"
           contact="faybrasser@gmail.com"
+          form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
         />
         <TeamCard
           team="Men's"
           image="men-2024.jpg"
           time="Tue and Thu 19:30 - 21:30"
           contact="morten@kh.com"
+          form="https://www.holdsport.dk/team_invitation/139528/4fad7b974cc5ac639e59d3e3cda15986fd1d10a9?fbclid=IwAR2eenwpH8YeicDxjp6WQrWqrj3sWTgLw3mnXY0XMNDYPR5xTEj6PpKcUmQ"
         />
         <TeamCard
           team="Youth"
           image="youth.jpg"
           time="Thu 17:30 - 18:30"
-          contact="morten@kh.com"
+          contact="mortenreynhard@gmail.com"
+          form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
         />
         <TeamCard
           team="Masters'"
           image="masters2024.jpg"
           time="Thu 18:30 - 20:00"
-          contact="morten@kh.com"
+          contact="khformand@gmail.com"
+          form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
         />
       </section>
       <JoinSection />

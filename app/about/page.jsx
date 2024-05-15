@@ -37,7 +37,7 @@ export default function AboutUs() {
       <section className="justify-center">
         <div>
           <Image
-            src="/ladies-men-indoor.jpg"
+            src="/ladies-men-indoor.webp"
             width={700}
             height={700}
             alt="Picture of the author"

@@ -29,7 +29,7 @@ export default function Footer() {
                 placeholder="yourname@kh.com"
                 className="input input-bordered join-item"
               />
-              <button className="btn btn-primary join-item">Subscribe</button>
+              <button className="btn btn-info join-item">Subscribe</button>
             </div>
           </fieldset>
         </form>

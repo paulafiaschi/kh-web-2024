@@ -58,7 +58,7 @@ export default function Teams() {
           alt="Picture of the author"
         />
         <div className="team-description">
-          <h3>Master&apos;s Team</h3>
+          <h3>Masters&apos; Team</h3>
           <p>
             Our Master&apos;s team is for experienced players who still have a
             passion for the game.
