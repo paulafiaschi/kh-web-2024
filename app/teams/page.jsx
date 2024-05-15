@@ -21,13 +21,15 @@ export default function Teams() {
           time="Tue and Thu 18:30 - 20:00"
           contact="faybrasser@gmail.com"
           form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
+          phone="4416 4208"
         />
         <TeamCard
           team="Men's"
           image="men-2024.jpg"
           time="Tue and Thu 19:30 - 21:30"
-          contact="morten@kh.com"
+          contact="j.luke@gmx.com"
           form="https://www.holdsport.dk/team_invitation/139528/4fad7b974cc5ac639e59d3e3cda15986fd1d10a9?fbclid=IwAR2eenwpH8YeicDxjp6WQrWqrj3sWTgLw3mnXY0XMNDYPR5xTEj6PpKcUmQ"
+          phone="2338 9691"
         />
         <TeamCard
           team="Youth"
@@ -35,6 +37,7 @@ export default function Teams() {
           time="Thu 17:30 - 18:30"
           contact="mortenreynhard@gmail.com"
           form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
+          phone="4023 0460"
         />
         <TeamCard
           team="Masters'"
@@ -42,6 +45,7 @@ export default function Teams() {
           time="Thu 18:30 - 20:00"
           contact="khformand@gmail.com"
           form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
+          phone="6060 8342"
         />
       </section>
       <JoinSection />

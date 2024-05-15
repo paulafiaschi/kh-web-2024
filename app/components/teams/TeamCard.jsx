@@ -23,12 +23,14 @@ export default function TeamCard(props) {
         </div>
         <div className="icon-container">
           <Image src="/messages.svg" width={20} height={20} alt="Clock icon" />
-          <Link href={`mailto: ${props.contact}`}>
-            <p className="text-sm">
-              Contact Person:<br></br>
+          <p className="text-sm">
+            Contact Person:<br></br>
+            <Link href={`mailto: ${props.contact}`}>
               <span className="text-gray-500 link"> {props.contact}</span>
-            </p>
-          </Link>
+            </Link>
+            <br></br>
+            <span className="text-gray-500"> {props.phone}</span>
+          </p>
         </div>
         <Link
           href={props.form}

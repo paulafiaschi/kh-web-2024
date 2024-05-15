@@ -102,6 +102,7 @@ a.team:hover {
   display: flex;
   gap: 0.5rem;
   margin-top: 0.25rem;
+  align-items: flex-start;
 }
 
 .card .pt-6 {
@@ -160,4 +161,26 @@ a.team:hover {
   display: flex;
   gap: 1rem;
   align-items: center;
+}
+
+/* gallery */
+.splide__arrow svg {
+  fill: #1064b3;
+}
+.splide__arrow {
+  background-color: #fff;
+}
+
+button.splide__pagination__page {
+  background: #1064b3;
+  border: solid 1px white;
+}
+
+button.splide__pagination__page.is-active {
+  background-color: #031641;
+}
+
+@media only screen and (max-width: 767px) {
+  .splide__arrow {
+  }
 }

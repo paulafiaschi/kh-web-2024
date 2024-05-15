@@ -24,60 +24,15 @@ export default function JoinSection() {
           hockey players.
         </b>
       </p>
-      {/* <Image
-        src="/ladies-men-2023.jpg"
-        width={900}
-        height={900}
-        alt="Picture of the author"
-        style={{
-          gridColumn: "1/3",
-          margin: "auto",
-        }}
-      /> */}
+
       <div
-        className="carousel carousel-center rounded-box"
+        className="carousel carousel-center"
         style={{
           gridColumn: "1/3",
         }}
       >
-        <div className="carousel-item">
-          <Image
-            src="/a.webp"
-            width={900}
-            height={900}
-            alt="Picture of the author"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </div>
-        <div className="carousel-item">
-          <Image
-            src="/b.webp"
-            width={900}
-            height={900}
-            alt="Picture of the author"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </div>
-        <div className="carousel-item">
-          <Image
-            src="/c.webp"
-            width={900}
-            height={900}
-            alt="Picture of the author"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </div>
+        <Gallery />
       </div>
-      <Gallery />
     </section>
   );
 }

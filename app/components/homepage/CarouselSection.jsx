@@ -4,15 +4,7 @@ import Carousel from "./Carousel";
 export default function CarouselSection() {
   return (
     <section className="justify-center">
-      <Image
-        src="/social2.jpeg"
-        width={600}
-        height={500}
-        alt="Picture of the author"
-      />
-
-      {/* <Carousel /> */}
-      <div>
+      <div style={{ gridColumn: "1/3", maxWidth: "60ch", margin: "auto" }}>
         <h2>
           From team outings to community events, we foster a strong sense of
           camaraderie.
@@ -24,6 +16,7 @@ export default function CarouselSection() {
           social atmosphere.
         </p>
       </div>
+      <Carousel />
     </section>
   );
 }

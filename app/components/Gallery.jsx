@@ -4,17 +4,12 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <Splide
-      aria-label="My Favorite Images"
-      style={{
-        gridColumn: "1/3",
-      }}
-    >
+    <Splide aria-label="My Favorite Images">
       <SplideSlide>
         <Image
-          src="/b.webp"
+          src="/a.webp"
           width={900}
-          height={900}
+          height={600}
           alt="Picture of the author"
           style={{
             gridColumn: "1/3",
@@ -24,9 +19,81 @@ export default function Gallery() {
       </SplideSlide>
       <SplideSlide>
         <Image
-          src="/a.webp"
+          src="/c.webp"
           width={900}
-          height={900}
+          height={600}
+          alt="Picture of the author"
+          style={{
+            gridColumn: "1/3",
+            margin: "auto",
+          }}
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src="/d.webp"
+          width={900}
+          height={600}
+          alt="Picture of the author"
+          style={{
+            gridColumn: "1/3",
+            margin: "auto",
+          }}
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src="/Hockey-DM-81.jpg"
+          width={900}
+          height={600}
+          alt="Picture of the author"
+          style={{
+            gridColumn: "1/3",
+            margin: "auto",
+          }}
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src="/f.webp"
+          width={900}
+          height={600}
+          alt="Picture of the author"
+          style={{
+            gridColumn: "1/3",
+            margin: "auto",
+          }}
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src="/g.webp"
+          width={900}
+          height={600}
+          alt="Picture of the author"
+          style={{
+            gridColumn: "1/3",
+            margin: "auto",
+          }}
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src="/outdoor-1.jpeg"
+          width={900}
+          height={600}
+          alt="JJ playing outdoor hockey"
+          style={{
+            gridColumn: "1/3",
+            margin: "auto",
+          }}
+        />
+      </SplideSlide>
+      <SplideSlide>
+        <Image
+          src="/h.webp"
+          width={900}
+          height={600}
           alt="Picture of the author"
           style={{
             gridColumn: "1/3",
