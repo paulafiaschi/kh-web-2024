@@ -15,7 +15,7 @@ export default function Footer() {
           Københavns Hockeyklub
         </Link>
 
-        <form className="mt-8">
+        {/* <form className="mt-8">
           <h3 className="footer-title text-lg pl-1">Newsletter</h3>
           <fieldset className="form-control w-80">
             <label className="label">
@@ -32,7 +32,7 @@ export default function Footer() {
               <button className="btn btn-info join-item">Subscribe</button>
             </div>
           </fieldset>
-        </form>
+        </form> */}
 
         <div className="footer-social">
           <Link
