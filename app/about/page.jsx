@@ -74,6 +74,22 @@ export default function AboutUs() {
         </div>
       </section>
 
+      <section
+        className="picturebg justify-center"
+        style={{ backgroundImage: "url(/b.webp)" }}
+      >
+        <div className="fade-overlay"></div>
+        <div className="z-50	">
+          <h2>Don&apos;t Miss Out</h2>
+          <p>
+            Join our hockey club and experience the benefits of being part of a
+            diverse and competitive team. With top division play, social
+            activities, and a welcoming community, you&apos;ll find a home with
+            us.
+          </p>
+        </div>
+      </section>
+
       <section className="justify-center">
         <div>
           <h2 className="text-3xl">Contact Information</h2>

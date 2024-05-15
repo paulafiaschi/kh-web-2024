@@ -4,6 +4,9 @@ import CarouselSection from "./components/homepage/CarouselSection";
 import Teams from "./components/homepage/Teams";
 import JoinUs from "./components/homepage/JoinUs";
 import FAQ from "./components/homepage/FAQ";
+// import Gallery from "./components/Gallery";
+
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,6 +19,7 @@ export default function Home() {
       <CarouselSection />
       <JoinUs />
       <FAQ />
+      {/* <Gallery /> */}
     </>
   );
 }

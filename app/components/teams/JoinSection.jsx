@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Gallery from "../Gallery";
 
 export default function JoinSection() {
   return (
@@ -23,7 +24,7 @@ export default function JoinSection() {
           hockey players.
         </b>
       </p>
-      <Image
+      {/* <Image
         src="/ladies-men-2023.jpg"
         width={900}
         height={900}
@@ -32,7 +33,51 @@ export default function JoinSection() {
           gridColumn: "1/3",
           margin: "auto",
         }}
-      />
+      /> */}
+      <div
+        className="carousel carousel-center rounded-box"
+        style={{
+          gridColumn: "1/3",
+        }}
+      >
+        <div className="carousel-item">
+          <Image
+            src="/a.webp"
+            width={900}
+            height={900}
+            alt="Picture of the author"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </div>
+        <div className="carousel-item">
+          <Image
+            src="/b.webp"
+            width={900}
+            height={900}
+            alt="Picture of the author"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </div>
+        <div className="carousel-item">
+          <Image
+            src="/c.webp"
+            width={900}
+            height={900}
+            alt="Picture of the author"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </div>
+      </div>
+      <Gallery />
     </section>
   );
 }
