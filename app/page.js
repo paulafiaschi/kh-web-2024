@@ -19,7 +19,6 @@ export default function Home() {
       <CarouselSection />
       <JoinUs />
       <FAQ />
-      {/* <Gallery /> */}
     </>
   );
 }
