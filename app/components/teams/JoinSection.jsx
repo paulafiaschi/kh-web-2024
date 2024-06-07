@@ -7,7 +7,7 @@ export default function JoinSection() {
       <div>
         <p className="text-xs	mb-3 tracking-widest">JOIN</p>
         <h2 className="text-3xl md:text-5xl">
-          Experience the camaraderie and growth of a team
+          Experience the Camaraderie and Growth of a Team
         </h2>
       </div>
       <p>

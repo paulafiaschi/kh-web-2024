@@ -49,6 +49,16 @@ section h2 {
   position: absolute;
 }
 
+.hero:has(.hero-verlay) .hero-content h1,
+.hero .hero-content p {
+  /* text-shadow: 1px 1px 5px #0c244c; */
+  text-shadow: 5px 5px 23px #000000;
+}
+
+.hero-overlay {
+  background-color: rgba(9, 29, 72, 0.398);
+}
+
 .picturebg {
   background: rgb(8, 47, 133);
   color: white;

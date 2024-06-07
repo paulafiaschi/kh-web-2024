@@ -49,7 +49,7 @@ export default function FAQ() {
           aria-labelledby="practiceTime"
         />
         <div className="collapse-title text-xl font-medium">
-          When are the practices?
+          When do the Teams practice?
         </div>
         <div className="collapse-content">
           <p>Our team practices are held on weekdays in the evenings.</p>

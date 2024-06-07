@@ -6,8 +6,8 @@ export default function CarouselSection() {
     <section className="justify-center">
       <div style={{ gridColumn: "1/3", maxWidth: "60ch", margin: "auto" }}>
         <h2>
-          From team outings to community events, we foster a strong sense of
-          camaraderie.
+          From Team Outings to Community Events, We Foster a Strong Sense of
+          Camaraderie.
         </h2>
         <p>
           Join our hockey club and experience the benefits of a social and
