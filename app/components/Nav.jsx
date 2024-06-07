@@ -45,7 +45,7 @@ export default function Nav() {
           Københavns Hockeyklub
         </Link>
       </div>
-      <div className="navbar-end hidden lg:flex">
+      <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
             <Link href="/">Home</Link>
@@ -61,9 +61,24 @@ export default function Nav() {
           </li>
         </ul>
       </div>
-      {/* <div className="navbar-end">
-        <a className="btn">Button</a>
-      </div> */}
+      <div className="navbar-end">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <Link href="/register" className="btn-sm">
+              Register
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="https://www.holdsport.dk/"
+              target="_blank"
+              className="btn btn-sm btn-outline btn-accent"
+            >
+              Login
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

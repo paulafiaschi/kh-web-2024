@@ -10,6 +10,12 @@ html {
   scroll-behavior: smooth;
 }
 
+a.btn-sm {
+  display: flex;
+  animation: c;
+  justify-content: center;
+}
+
 .logo {
   display: flex;
 
