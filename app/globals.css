@@ -154,6 +154,12 @@ a.team:hover {
 }
 
 /* Footer */
+
+.footer-newsletter {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .footer-social {
   display: flex;
   gap: 1rem;
@@ -187,7 +193,7 @@ button.splide__pagination__page {
 }
 
 button.splide__pagination__page.is-active {
-  background-color: #031641;
+  background-color: #fff;
 }
 
 @media only screen and (max-width: 767px) {

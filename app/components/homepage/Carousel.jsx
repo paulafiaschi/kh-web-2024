@@ -8,83 +8,10 @@ export default function Carousel() {
       <Splide aria-label="Social Images">
         <SplideSlide>
           <Image
-            src="/j.jpg"
-            width={900}
-            height={600}
-            alt="Thor playing the Hockey5 tournament against Orient"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <Image
-            src="/k.jpg"
-            width={900}
-            height={600}
-            alt="Tam warming up our goalie"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <Image
-            src="/l.jpg"
-            width={900}
-            height={600}
-            alt="Ladies celebrating after playing agains each other at Hockey5"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <Image
-            src="/i.jpg"
-            width={900}
-            height={600}
-            alt="Rasmus playing the Hockey5 tournament in Valby"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <Image
-            src="/m.jpg"
-            width={900}
-            height={600}
-            alt="Team dinner afetr playing the Mason Cup"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </SplideSlide>
-        <SplideSlide>
-          <Image
             src="/social2.jpg"
             width={900}
             height={600}
             alt="BBQ at home, next to our blue pitch"
-            style={{
-              gridColumn: "1/3",
-              margin: "auto",
-            }}
-          />
-        </SplideSlide>
-
-        <SplideSlide>
-          <Image
-            src="/social3.jpg"
-            width={900}
-            height={600}
-            alt="Playing beachvolleyball with the team"
             style={{
               gridColumn: "1/3",
               margin: "auto",
@@ -104,6 +31,80 @@ export default function Carousel() {
             }}
           />
         </SplideSlide>
+
+        <SplideSlide>
+          <Image
+            src="/julefrokost.webp"
+            width={900}
+            height={600}
+            alt="The Team celebrating Christmas together at the clubhouse"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </SplideSlide>
+        <SplideSlide>
+          <Image
+            src="/pubcrawl.webp"
+            width={900}
+            height={600}
+            alt="The Team on our annual pubcrawl event"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </SplideSlide>
+        <SplideSlide>
+          <Image
+            src="/aalborg.webp"
+            width={900}
+            height={600}
+            alt="People from both our teams having a beer in Aalborg"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </SplideSlide>
+        <SplideSlide>
+          <Image
+            src="/ec2024.webp"
+            width={900}
+            height={600}
+            alt="The ladies' team having dinner at the Eurocup 2024"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </SplideSlide>
+        <SplideSlide>
+          <Image
+            src="/m.jpg"
+            width={900}
+            height={600}
+            alt="Team dinner afetr playing the Mason Cup"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </SplideSlide>
+
+        {/* <SplideSlide>
+          <Image
+            src="/social3.jpg"
+            width={900}
+            height={600}
+            alt="Playing beachvolleyball with the team"
+            style={{
+              gridColumn: "1/3",
+              margin: "auto",
+            }}
+          />
+        </SplideSlide> */}
       </Splide>
     </div>
   );

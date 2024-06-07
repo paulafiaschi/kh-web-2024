@@ -79,7 +79,7 @@ export default function AboutUs() {
         style={{ backgroundImage: "url(/b.webp)" }}
       >
         <div className="fade-overlay"></div>
-        <div className="z-50	">
+        <div className="z-40	">
           <h2>Don&apos;t Miss Out</h2>
           <p>
             Join our hockey club and experience the benefits of being part of a
