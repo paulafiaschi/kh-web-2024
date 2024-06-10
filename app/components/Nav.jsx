@@ -35,14 +35,14 @@ export default function Nav() {
             </li>
           </ul>
         </div>
-        <Link href="/" className="logo ">
+        <Link href="/" className="logo">
           <Image
             src="/KH-Logo.svg"
             width={50}
             height={50}
             alt="Picture of the author"
           />
-          Københavns Hockeyklub
+          <p>Københavns Hockeyklub</p>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -64,15 +64,15 @@ export default function Nav() {
       <div className="navbar-end">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link href="/register" className="btn-sm">
-              Register
+            <Link href="/register" className="btn-sm text-xs">
+              Become a Member
             </Link>
           </li>
           <li>
             <Link
               href="https://www.holdsport.dk/"
               target="_blank"
-              className="btn btn-sm btn-outline btn-accent"
+              className="btn btn-sm btn-outline btn-accent text-xs"
             >
               Login
             </Link>

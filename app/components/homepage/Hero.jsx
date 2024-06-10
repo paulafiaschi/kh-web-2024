@@ -22,9 +22,15 @@ export default function Hero() {
           <Link href="#findOut" className="btn btn-primary">
             Learn More
           </Link>
-          <Link
+          {/* <Link
             href="https://www.facebook.com/Copenhagenhockeyclub"
             target="_blank"
+            className="btn btn-outline btn-primary ml-3"
+          >
+            Contact Us
+          </Link> */}
+          <Link
+            href="/about#contact"
             className="btn btn-outline btn-primary ml-3"
           >
             Contact Us

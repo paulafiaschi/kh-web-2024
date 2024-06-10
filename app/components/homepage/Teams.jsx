@@ -61,7 +61,7 @@ export default function Teams() {
           <h3>Masters&apos; Team</h3>
           <p>
             Our Master&apos;s team is for experienced players who still have a
-            passion for the game.
+            passion for the game and love having fun.
           </p>
         </div>
       </Link>

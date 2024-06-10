@@ -49,25 +49,26 @@ export default function AboutUs() {
             Experience the Thrill of Hockey: <br></br>Indoor and Outdoor
           </h2>
           <p>
-            We participate in both the outdoor and the indoor hockey tournament,
-            based on the time of the year. Whether you enjoy the open field or
-            the fast-paced action of the indoor court, we have it all.
+            We participate in both the outdoor and the indoor hockey
+            tournaments, based on the time of the year. Whether you enjoy the
+            open field or the fast-paced action of the indoor court, we have it
+            all.
           </p>
           <div className="lg:flex mt-6 gap-5">
             <div>
               <h3 className="mb-2">Outdoor Hockey</h3>
               <p>
                 Join us on the field for intense matches and thrilling
-                competition against top teams, as our season runs from mid-March
-                to October.
+                competition against top teams, as our season runs from{" "}
+                <b>mid-March</b> to <b>October</b>.
               </p>
             </div>
             <div>
               <h3 className="mb-2">Indoor Hockey</h3>
               <p>
                 Step onto the pitch and experience the speed and skill of indoor
-                hockey, as the season runs from November to the beginning of
-                March.
+                hockey, as the season runs from <b>November</b> to the{" "}
+                <b>beginning of March</b>.
               </p>
             </div>
           </div>
@@ -90,39 +91,77 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="justify-center">
+      <section className="justify-center" id="contact">
         <div>
           <h2 className="text-3xl">Contact Information</h2>
           <p>We are located in Valby, Copenhagen, Denmark.</p>
 
-          <div className="info-group mt-9">
+          <Link
+            href={"mailto:khformand@gmail.com"}
+            className="link-hover info-group mt-9 block"
+          >
             <Image
               src="/envelope.svg"
               width={25}
               height={25}
               alt="Envelope Icon"
             />
+            khformand@gmail.com
+          </Link>
 
-            <Link href={"mailto:khformand@gmail.com"} className="link-hover">
-              khformand@gmail.com
-            </Link>
-          </div>
-          <div className="info-group mt-4">
+          <Link
+            href="https://maps.app.goo.gl/W9TT7hntD374WmXF9"
+            target="_blank"
+            className="link-hover info-group mt-4 block"
+          >
             <Image
               src="/location.svg"
               width={25}
               height={25}
               alt="Location Icon"
             />
+            Julius Andersens Vej 1, 2450 København SV
+          </Link>
 
-            <Link
-              href="https://maps.app.goo.gl/W9TT7hntD374WmXF9"
-              target="_blank"
-              className="link-hover"
-            >
-              Julius Andersens Vej 1, 2450 København SV
-            </Link>
-          </div>
+          <Link
+            href="https://www.facebook.com/Copenhagenhockeyclub"
+            className=" link link-hover mt-9 block info-group"
+            target="_blank"
+          >
+            <Image
+              src="/facebook-black.svg"
+              width={30}
+              height={30}
+              alt="Facebook logo"
+            />
+            /Copenhagenhockeyclub
+          </Link>
+          <Link
+            href="https://www.instagram.com/copenhagen_fieldhockey/"
+            className="link link-hover mt-4 block info-group"
+            target="_blank"
+          >
+            <Image
+              src="/instagram-black.svg"
+              width={30}
+              height={30}
+              alt="Instagram logo"
+            />{" "}
+            /copenhagen_fieldhockey
+          </Link>
+          <Link
+            href="https://scorrd.com/clubs/kobenhavns-hockeyklub"
+            className=" link link-hover mt-4 block info-group"
+            target="_blank"
+          >
+            <Image
+              src="/scorrd-black.svg"
+              width={30}
+              height={30}
+              alt="Scorrd logo"
+            />
+            Københavns Hockeyklub
+          </Link>
         </div>
         <div>
           <Link

@@ -17,13 +17,20 @@ export default function FAQ() {
         </div>
         <div className="collapse-content">
           <p>
-            The club is located in Valby&nbsp;
+            The club is located in Valby Idrætspark.&nbsp;
             <Link
               href={"https://maps.app.goo.gl/W9TT7hntD374WmXF9"}
               className="link link-accent"
             >
               (Valby Idrætspark, Ellebjergvej, 2450 København)
             </Link>
+            <br></br>
+            You will find us on the awesome blue water pitch from April to
+            September, or the fabulous hall next to it from October to March.
+          </p>
+          <p className="mt-2">
+            We are very close to the train and metro stations “København Syd”,
+            and the Metro stop “Mozarts plads” whithin waking distance.
           </p>
         </div>
       </div>
@@ -57,7 +64,7 @@ export default function FAQ() {
             <b>Women&apos;s Team: </b>Tue and Thu 18:30-20:00<br></br>
             <b> Men&apos;s Team:</b> Tue and Thu 19:30-21:30<br></br>
             <b> Youth Team:</b> Thu 17:30-18:30<br></br>
-            <b> Youth Team: </b>Thu 18:30-20:00<br></br>
+            <b> Masters&apos; Team: </b>Thu 18:30-20:00<br></br>
           </p>
         </div>
       </div>
@@ -68,15 +75,26 @@ export default function FAQ() {
         </div>
         <div className="collapse-content">
           <p>
-            Yes, there is a membership fee of 650 DKK billed twice annually to
-            join our teams.
+            Yes, to join either our <b>Women&apos;s</b> Team or the{" "}
+            <b>Men&apos;s</b> Team, there is a membership fee of 650 DKK billed
+            twice annually.
+          </p>
+          <p className="mt-2">
+            Membership fee for the <b>Youth</b> Team is 750 DKK per year.
+          </p>
+          <p className="mt-2">
+            Membership fee for the <b>Master&apos;</b> Team is 650 DKK per year.
+          </p>
+          <p className="mt-2">
+            To be part of our support club <b>&quot;KH&apos;s Venner&quot;</b>{" "}
+            membership fee is 250 DKK billed annually.
           </p>
         </div>
       </div>
       <div className="collapse collapse-arrow rounded-none">
         <input type="radio" name="my-accordion-1" aria-labelledby="equipment" />
         <div className="collapse-title text-xl font-medium">
-          I don&apos; have any hockey gear with me. Can I borrow from the club?
+          I don&apos;t have any hockey gear with me. Can I borrow from the club?
         </div>
         <div className="collapse-content">
           <p>
@@ -102,7 +120,7 @@ export default function FAQ() {
       <p className="mt-16 text-3xl font-bold">Still have questions?</p>
       <p>Feel free to reach out to us.</p>
       <Link
-        href="https://www.facebook.com/Copenhagenhockeyclub"
+        href="/about#contact"
         target="_blank"
         className="btn btn-accent mt-4"
       >

@@ -101,7 +101,7 @@ export default function Register() {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">KH&apos;s Venner Team</h2>
+            <h2 className="card-title">&quot;KH&apos;s Venner&quot; Club</h2>
             <p>Support club for Københavns Hockeyklub</p>
             <div className="card-actions justify-end">
               <Link href="#" className="btn btn-primary">

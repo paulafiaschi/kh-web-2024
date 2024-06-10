@@ -12,6 +12,11 @@ export default function Section2() {
           division in Denmark. With recent achievements and accolades, we have
           established ourselves as a competitive force in the league.
         </p>
+        <p className="mt-4">
+          With our top-notch facilities, including the best water pitch in
+          Denmark, and our amazing indoor hall, we offer an unparalleled hockey
+          experience.
+        </p>
       </div>
       <Image
         src="/ladies-men-indoor.webp"

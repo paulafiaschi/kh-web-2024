@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <footer className="p-10 highlightSection text-white">
       <nav>
-        {/* <div className="footer-newsletter">
+        <div className="footer-newsletter">
           <div
             style={{ textAlign: "left" }}
             className="sender-form-field"
             data-sender-form-id="lx4mazxmdyrrwejmmrr"
           ></div>
-        </div> */}
+        </div>
 
         <Link href="/" className="logo ">
           <Image
@@ -27,6 +27,7 @@ export default function Footer() {
           <Link
             href="https://www.facebook.com/Copenhagenhockeyclub"
             className=" link link-hover"
+            target="_blank"
           >
             <Image
               src="/facebook.svg"
@@ -35,9 +36,25 @@ export default function Footer() {
               alt="Facebook logo"
             />
           </Link>
-          <Link href="/" className=" link link-hover">
+          <Link
+            href="https://www.instagram.com/copenhagen_fieldhockey/"
+            className="link link-hover"
+            target="_blank"
+          >
             <Image
               src="/instagram.svg"
+              width={30}
+              height={30}
+              alt="Instagram logo"
+            />
+          </Link>
+          <Link
+            href="https://scorrd.com/clubs/kobenhavns-hockeyklub"
+            className=" link link-hover"
+            target="_blank"
+          >
+            <Image
+              src="/scorrd.svg"
               width={30}
               height={30}
               alt="Instagram logo"

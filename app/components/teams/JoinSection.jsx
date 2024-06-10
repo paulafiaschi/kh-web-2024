@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Gallery from "../Gallery";
+import Gallery from "../teams/Gallery";
 
 export default function JoinSection() {
   return (
@@ -12,7 +12,7 @@ export default function JoinSection() {
       </div>
       <p>
         Joining a team at our Hockey Club in Copenhagen offers numerous
-        benefits. You&apos;ll have the opportunity to experience the
+        benefits. You&apos;ll have the opportunity to experience the{" "}
         <b>camaraderie</b> and growth that comes from being part of a team.
         <br></br>
         Whether you&apos;re a beginner or an experienced player, our teams

@@ -25,8 +25,9 @@ export default function TeamCard(props) {
           <Image src="/messages.svg" width={20} height={20} alt="Clock icon" />
           <p className="text-sm">
             Contact Person:<br></br>
+            <span className="text-gray-500">{props.name}</span> <br></br>
             <Link href={`mailto: ${props.contact}`}>
-              <span className="text-gray-500 link"> {props.contact}</span>
+              <span className="text-gray-500 link">{props.contact}</span>
             </Link>
             <br></br>
             <span className="text-gray-500"> {props.phone}</span>
