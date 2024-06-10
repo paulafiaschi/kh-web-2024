@@ -20,20 +20,6 @@ export default function Nav() {
               ></path>
             </svg>
           </div>
-          <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li>
-              <Link href="/about">About Us</Link>
-            </li>
-            <li>
-              <Link href="/teams">Teams</Link>
-            </li>
-            <li>
-              <Link href="#FAQ">FAQ</Link>
-            </li>
-          </ul>
         </div>
         <Link href="/" className="logo">
           <Image

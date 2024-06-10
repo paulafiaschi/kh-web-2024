@@ -53,35 +53,36 @@ export default function Teams() {
           phone="6060 8342"
         />
       </section>
-
-      <section className="justify-center highlightSection">
-        <Image
-          src="/kh-venner.jpeg"
-          width={700}
-          height={700}
-          alt="Picture of the author"
-        />
-        <div>
-          <p className="text-xs	mb-3 tracking-widest">EMBRACE</p>
-          <h2 className="text-3xl md:text-4xl">
-            Join Our Support Club and Make a Difference
-          </h2>
-          <p>
-            The support association &quot;KH&apos; Venner&quot; is dedicated to
-            supporting the youth work in our club. By joining our support club
-            with an annual fee of DKK 250, you are helping us develop the club
-            and organize social activities for our youth players.
-          </p>
-          <p>
-            Did you know that everyone in the Copenhagen Hockey Club works
-            voluntarily? We believe in the value of everyone contributing to the
-            club and being #StrongerTogether.
-          </p>
-          <Link href="/teams" className="btn btn-outline btn-primary  mt-8">
-            Join the &quot;KH&apos; Venner&quot; Club &#9656;
-          </Link>
-        </div>
-      </section>
+      <div className="highlightSection">
+        <section className="justify-center">
+          <Image
+            src="/kh-venner.jpeg"
+            width={700}
+            height={700}
+            alt="Picture of the author"
+          />
+          <div>
+            <p className="text-xs	mb-3 tracking-widest">EMBRACE</p>
+            <h2 className="text-3xl md:text-4xl">
+              Join Our Support Club and Make a Difference
+            </h2>
+            <p>
+              The support association &quot;KH&apos; Venner&quot; is dedicated
+              to supporting the youth work in our club. By joining our support
+              club with an annual fee of DKK 250, you are helping us develop the
+              club and organize social activities for our youth players.
+            </p>
+            <p>
+              Did you know that everyone in the Copenhagen Hockey Club works
+              voluntarily? We believe in the value of everyone contributing to
+              the club and being #StrongerTogether.
+            </p>
+            <Link href="/teams" className="btn btn-outline btn-primary  mt-8">
+              Join the &quot;KH&apos; Venner&quot; Club &#9656;
+            </Link>
+          </div>
+        </section>
+      </div>
 
       <JoinSection />
       <section className="justify-center">

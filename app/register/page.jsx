@@ -19,14 +19,14 @@ export default function Register() {
           <figure>
             <Image
               src="/ladies2023.jpg"
-              width={600}
-              height={200}
+              width={900}
+              height={500}
               alt="Ladies Team picture"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Ladies Team</h2>
-            <p>+ 18 years old</p>
+            <h2 className="card-title text-white">Ladies Team</h2>
+            <p className="text-white">+ 18 years old</p>
             <div className="card-actions justify-end">
               <Link href="#" className="btn btn-primary">
                 Register &#9656;
@@ -38,14 +38,14 @@ export default function Register() {
           <figure>
             <Image
               src="/men-2024.jpg"
-              width={600}
-              height={200}
+              width={900}
+              height={500}
               alt="Men's Team picture"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Men&apos;s Team</h2>
-            <p>+ 18 years old</p>
+            <h2 className="card-title text-white">Men&apos;s Team</h2>
+            <p className="text-white">+ 18 years old</p>
             <div className="card-actions justify-end">
               <Link href="#" className="btn btn-primary">
                 Register &#9656;
@@ -57,16 +57,16 @@ export default function Register() {
           <figure>
             <Image
               src="/youth.jpg"
-              width={600}
-              height={200}
+              width={900}
+              height={500}
               alt="U13 Team picture"
             />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">Youth Team</h2>
-            <p>&lt; 18 years old</p>
+          <div className="card-body ">
+            <h2 className="card-title text-white">Youth Team</h2>
+            <p className="text-white">&lt; 18 years old</p>
             <div className="card-actions justify-end">
-              <Link href="#" className="btn btn-primary">
+              <Link href="#" className="btn btn-primary ">
                 Register &#9656;
               </Link>
             </div>
@@ -76,14 +76,14 @@ export default function Register() {
           <figure>
             <Image
               src="/masters2024.jpg"
-              width={600}
-              height={200}
+              width={900}
+              height={500}
               alt="Masters' Team picture"
             />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">Masters&apos; Team</h2>
-            <p>+ 35 years old</p>
+          <div className="card-body ">
+            <h2 className="card-title text-white">Masters&apos; Team</h2>
+            <p className="text-white">+ 35 years old</p>
             <div className="card-actions justify-end">
               <Link href="#" className="btn btn-primary">
                 Register &#9656;
@@ -95,14 +95,16 @@ export default function Register() {
           <figure>
             <Image
               src="/social2.jpg"
-              width={600}
-              height={200}
+              width={900}
+              height={500}
               alt="Masters' Team picture"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">&quot;KH&apos;s Venner&quot; Club</h2>
-            <p>Support club for Københavns Hockeyklub</p>
+            <h2 className="card-title text-white">
+              &quot;KH&apos;s Venner&quot; Club
+            </h2>
+            <p className="text-white">Support club for Københavns Hockeyklub</p>
             <div className="card-actions justify-end">
               <Link href="#" className="btn btn-primary">
                 Register &#9656;

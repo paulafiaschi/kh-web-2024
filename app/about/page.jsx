@@ -40,7 +40,7 @@ export default function AboutUs() {
             src="/ladies-men-indoor.webp"
             width={700}
             height={700}
-            alt="Picture of the author"
+            alt="Women and Men's teams celebrating the double gold medal - indoor 2023"
           />
         </div>
         <div>
@@ -74,31 +74,32 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-
-      <section
+      <div
         className="picturebg justify-center"
         style={{ backgroundImage: "url(/b.webp)" }}
       >
         <div className="fade-overlay"></div>
-        <div className="z-40	">
-          <h2>Don&apos;t Miss Out</h2>
-          <p>
-            Join our hockey club and experience the benefits of being part of a
-            diverse and competitive team. With top division play, social
-            activities, and a welcoming community, you&apos;ll find a home with
-            us.
-          </p>
-        </div>
-      </section>
+        <section className=" justify-center">
+          <div className="z-40	">
+            <h2>Don&apos;t Miss Out</h2>
+            <p>
+              Join our hockey club and experience the benefits of being part of
+              a diverse and competitive team. With top division play, social
+              activities, and a welcoming community, you&apos;ll find a home
+              with us.
+            </p>
+          </div>
+        </section>
+      </div>
 
       <section className="justify-center" id="contact">
         <div>
-          <h2 className="text-3xl">Contact Information</h2>
+          <h2 className="text-3xl">Get in Touch With Us!</h2>
           <p>We are located in Valby, Copenhagen, Denmark.</p>
 
           <Link
             href={"mailto:khformand@gmail.com"}
-            className="link-hover info-group mt-9 block"
+            className="link-hover info-group mt-9 "
           >
             <Image
               src="/envelope.svg"
@@ -112,7 +113,7 @@ export default function AboutUs() {
           <Link
             href="https://maps.app.goo.gl/W9TT7hntD374WmXF9"
             target="_blank"
-            className="link-hover info-group mt-4 block"
+            className="link-hover info-group mt-4 "
           >
             <Image
               src="/location.svg"
@@ -125,7 +126,7 @@ export default function AboutUs() {
 
           <Link
             href="https://www.facebook.com/Copenhagenhockeyclub"
-            className=" link link-hover mt-9 block info-group"
+            className=" link link-hover mt-9  info-group"
             target="_blank"
           >
             <Image
@@ -138,7 +139,7 @@ export default function AboutUs() {
           </Link>
           <Link
             href="https://www.instagram.com/copenhagen_fieldhockey/"
-            className="link link-hover mt-4 block info-group"
+            className="link link-hover mt-4  info-group"
             target="_blank"
           >
             <Image
@@ -151,7 +152,7 @@ export default function AboutUs() {
           </Link>
           <Link
             href="https://scorrd.com/clubs/kobenhavns-hockeyklub"
-            className=" link link-hover mt-4 block info-group"
+            className=" link link-hover mt-4  info-group"
             target="_blank"
           >
             <Image
