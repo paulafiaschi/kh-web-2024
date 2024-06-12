@@ -40,7 +40,7 @@ export default function Teams() {
           time="Thu 17:30 - 18:30"
           name="Morten"
           contact="mortenreynhard@gmail.com"
-          form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
+          form="https://www.holdsport.dk/team_invitation/139531/dcdb16a148c7b193ea7c18ba7aa2901adfd4c9df?fbclid=IwAR3dFGEzoji_hJ9yT9hPKSNVZUjL7rLR9SkByOq3vu6Aovi1lyf8dqBLtDg"
           phone="4023 0460"
         />
         <TeamCard
@@ -77,7 +77,10 @@ export default function Teams() {
               voluntarily? We believe in the value of everyone contributing to
               the club and being #StrongerTogether.
             </p>
-            <Link href="/teams" className="btn btn-outline btn-primary  mt-8">
+            <Link
+              href="https://www.holdsport.dk/team_invitation/139537/15de952cacd5e037a09e931b5c6740b54d43a3d2"
+              className="btn btn-outline btn-primary  mt-8"
+            >
               Join the &quot;KH&apos; Venner&quot; Club &#9656;
             </Link>
           </div>

@@ -61,10 +61,20 @@ export default function FAQ() {
         <div className="collapse-content">
           <p>Our team practices are held on weekdays in the evenings.</p>
           <p className="mt-2">
-            <b>Women&apos;s Team: </b>Tue and Thu 18:30-20:00<br></br>
-            <b> Men&apos;s Team:</b> Tue and Thu 19:30-21:30<br></br>
-            <b> Youth Team:</b> Thu 17:30-18:30<br></br>
-            <b> Masters&apos; Team: </b>Thu 18:30-20:00<br></br>
+            <b>Outdoor &#40;Mid-March to October&#41;</b>
+            <br></br>
+            &emsp;Women&apos;s Team: Tue and Thu 18:30-20:00<br></br>
+            &emsp;Men&apos;s Team: Tue and Thu 19:30-21:30<br></br>
+            &emsp;Youth Team: Thu 17:30-18:30<br></br>
+            &emsp;Masters&apos; Team: Thu 18:30-20:00<br></br>
+          </p>
+          <p className="mt-2">
+            <b>Indoor &#40;November to beginning of March&#41;</b>
+            <br></br>
+            &emsp;Women&apos;s Team: Wed 19:0 - 20:30<br></br>
+            &emsp;Men&apos;s Team: Wed 20:30-22:30<br></br>&emsp;&emsp;+ Mix
+            practice on Mondays 21:00-22:30<br></br>
+            &emsp;Youth Team: Wed 18:00-19:00<br></br>
           </p>
         </div>
       </div>
