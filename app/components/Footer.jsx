@@ -13,16 +13,23 @@ export default function Footer() {
           ></div>
         </div>
 
-        <Link href="/" className="logo ">
-          <Image
-            src="/KH-Logo-white.svg"
-            width={50}
-            height={50}
-            alt="Picture of the author"
-          />
-          Københavns Hockeyklub
-        </Link>
-
+        <div className="flex md:flex-row flex-col gap-9 justify-between align-top ">
+          <Link href="/" className="logo ">
+            <Image
+              src="/KH-Logo-white.svg"
+              width={50}
+              height={50}
+              alt="KH logo"
+            />
+            Københavns Hockeyklub
+          </Link>
+          <Link
+            href="https://maps.app.goo.gl/W9TT7hntD374WmXF9"
+            className="text-sm flex items-center	 text-center"
+          >
+            Julius Andersens Vej 1, 2450 København SV
+          </Link>
+        </div>
         <div className="footer-social">
           <Link
             href="https://www.facebook.com/Copenhagenhockeyclub"

@@ -51,7 +51,7 @@ export default function Nav() {
         <ul className="menu menu-horizontal px-1">
           <li>
             <Link href="/register" className="btn-sm text-xs">
-              Become a Member
+              Sign Up
             </Link>
           </li>
           <li>
@@ -60,7 +60,7 @@ export default function Nav() {
               target="_blank"
               className="btn btn-sm btn-outline btn-accent text-xs"
             >
-              Login
+              Sign In
             </Link>
           </li>
         </ul>

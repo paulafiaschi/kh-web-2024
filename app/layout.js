@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import SenderScript from "./components/SenderScript";
 import BurgerMenu from "./components/BurgerMenu";
+import Flyout from "./components/Flyout";
 
 const noto_sans = Noto_Sans({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className={noto_sans.className}>
         <Nav />
         <BurgerMenu />
+        <Flyout />
         {children}
         <Footer />
       </body>

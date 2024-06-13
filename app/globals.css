@@ -10,6 +10,17 @@ html {
   scroll-behavior: smooth;
 }
 
+.flyout {
+  position: fixed;
+  top: 80%;
+  width: fit-content;
+  right: 0;
+  background-color: #30d2ff;
+  background-color: #ffa930;
+  padding: 1rem;
+  z-index: 99;
+}
+
 a.btn-sm {
   display: flex;
   animation: c;
@@ -141,6 +152,9 @@ a.team:hover {
 }
 
 @media only screen and (max-width: 767px) {
+  .flyout {
+    top: 90%;
+  }
   section {
     display: flex;
     flex-direction: column;
