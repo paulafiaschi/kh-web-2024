@@ -49,7 +49,7 @@ export default function Teams() {
           time="Thu 18:30 - 20:00"
           name="Tobias"
           contact="khformand@gmail.com"
-          form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
+          form="https://holdsport.dk/team_invitation/139537/15de952cacd5e037a09e931b5c6740b54d43a3d2"
           phone="6060 8342"
         />
       </section>

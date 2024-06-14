@@ -94,7 +94,10 @@ export default function Register() {
             <h2 className="card-title text-white">Masters&apos; Team</h2>
             <p className="text-white">+ 35 years old</p>
             <div className="card-actions justify-end">
-              <Link href="#" className="btn btn-primary">
+              <Link
+                href="https://holdsport.dk/team_invitation/139537/15de952cacd5e037a09e931b5c6740b54d43a3d2"
+                className="btn btn-primary"
+              >
                 Sign Up &#9656;
               </Link>
             </div>

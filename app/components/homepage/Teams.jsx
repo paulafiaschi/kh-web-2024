@@ -11,7 +11,7 @@ export default function Teams() {
             src="/ladies2023.jpg"
             width={500}
             height={500}
-            alt="Picture of the author"
+            alt="Women's team picture"
           />
           <div className="team-description">
             <h3>Women&apos;s Team</h3>
@@ -27,7 +27,7 @@ export default function Teams() {
             src="/men-2024.jpg"
             width={500}
             height={500}
-            alt="Picture of the author"
+            alt="Men's Team picture"
           />
           <div className="team-description">
             <h3>Men&apos;s Team</h3>
@@ -42,7 +42,7 @@ export default function Teams() {
             src="/youth.jpg"
             width={500}
             height={500}
-            alt="Picture of the author"
+            alt="Youth Team Picture"
           />
           <div className="team-description">
             <h3>Youth Team</h3>
@@ -57,7 +57,7 @@ export default function Teams() {
             src="/masters2024.jpg"
             width={500}
             height={500}
-            alt="Picture of the author"
+            alt="Masters' Team picture"
           />
           <div className="team-description">
             <h3>Masters&apos; Team</h3>
