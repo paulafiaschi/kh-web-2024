@@ -25,8 +25,9 @@ export default function FAQ() {
               (Valby Idrætspark, Ellebjergvej, 2450 København)
             </Link>
             <br></br>
-            You will find us on the awesome blue water pitch from April to
-            September, or the fabulous hall next to it from October to March.
+            You can meet us on the awesome blue water pitch from mid-March to
+            October, or find us in the fabulous hall next to it from November to
+            beginning of March.
           </p>
           <p className="mt-2">
             We are very close to the train and metro stations “København Syd”,
@@ -42,10 +43,12 @@ export default function FAQ() {
         <div className="collapse-content">
           <p>
             To join our teams, simply show up at the pitch during practice time.
-            <br></br> No need to try out. Feel free to come and practice with
-            KH&apos;s teams a few times. <br></br>After you have had the chance
-            to meet, train and socialize with a few other members of the team,
-            we are confident you&apos;ll want to join the KH Family.
+            <br></br>Feel free to come and practice with KH&apos;s teams a few
+            times.
+          </p>
+          <p className="mt-2">
+            Mid-March to October: Meet us at the blue water pitch.<br></br>{" "}
+            November to beginning of March: Find us in the indoor hall.
           </p>
         </div>
       </div>
