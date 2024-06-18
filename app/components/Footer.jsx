@@ -6,11 +6,21 @@ export default function Footer() {
     <footer className="p-10 highlightSection text-white">
       <nav>
         <div className="footer-newsletter">
-          <div
-            style={{ textAlign: "left" }}
-            className="sender-form-field"
-            data-sender-form-id="lx4mazxmdyrrwejmmrr"
-          ></div>
+          <p className="mb-2">Join our newsletter and get a quarterly update</p>
+          <iframe
+            src="https://embeds.beehiiv.com/95e4e92d-436d-4be8-9061-50d5e8437b79?slim=true"
+            data-test-id="beehiiv-embed"
+            height="52"
+            frameborder="0"
+            scrolling="no"
+            style={{
+              margin: "0",
+              borderRadius: "0px !important",
+              border: "none",
+              margin: "0",
+              backgroundColor: "transparent",
+            }}
+          ></iframe>
         </div>
 
         <div className="flex md:flex-row flex-col gap-9 justify-between align-top ">

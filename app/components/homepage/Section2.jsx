@@ -13,9 +13,9 @@ export default function Section2() {
           established ourselves as a competitive force in the league.
         </p>
         <p className="mt-4">
-          With our top-notch facilities, including the best water pitch in
-          Denmark, and our amazing indoor hall, we offer an unparalleled hockey
-          experience.
+          With our top-notch facilities, including the{" "}
+          <b>best water pitch in Denmark</b>, and our amazing indoor hall, we
+          offer an unparalleled hockey experience.
         </p>
       </div>
       <Image
