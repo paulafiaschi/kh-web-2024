@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Colors 
+ Blue #082f85
+ Light blue #30d2ff 
+ Orange #ffa930 
+ */
+
 @import "@splidejs/react-splide/css";
 
 html {
@@ -52,8 +58,8 @@ section h2 {
 }
 
 .highlightSection {
-  background: rgb(8, 47, 133);
-  background: linear-gradient(126deg, rgba(8, 47, 133, 1) 0%, #4260a2 100%);
+  background: #082f85;
+  background: linear-gradient(126deg, #082f85 0%, #4260a2 100%);
   color: white;
 }
 

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="p-10 highlightSection text-white">
       <nav>
         <div className="footer-newsletter">
-          <p className="mb-2">Join our newsletter and get a quarterly update</p>
+          <p className="mb-2">Join our newsletter and get the latest updates</p>
           <iframe
             src="https://embeds.beehiiv.com/95e4e92d-436d-4be8-9061-50d5e8437b79?slim=true"
             data-test-id="beehiiv-embed"
