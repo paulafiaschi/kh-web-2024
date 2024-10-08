@@ -117,72 +117,80 @@ export default function EuroHockey2025() {
       </section>
 
       <div className="highlightSection">
-        <section className="justify-center">
+        <section className="justify-center ec_teams">
           <div style={{ gridColumn: "1/3", maxWidth: "60ch", margin: "auto" }}>
             <h2>Meet the Teams</h2>
           </div>
+          <div
+            style={{ gridColumn: "1/3", margin: "auto" }}
+            className="grid grid-cols-3 gap-10"
+          >
+            <div>
+              <Image
+                src="/KH-Logo_bw.svg"
+                width={200}
+                height={200}
+                alt="Women's team picture"
+              />
+              <div className="team-description">
+                <h3>Copenhagen Field Hockey</h3>
+                <p>🇩🇰 Denmark</p>
+              </div>
+            </div>
 
-          <div>
-            <Image
-              src="/ladies2023.jpg"
-              width={500}
-              height={500}
-              alt="Women's team picture"
-            />
-            <div className="team-description">
-              <h3>Copenhagen Field Hockey</h3>
-              <p>Denmark</p>
+            <div>
+              <Image
+                src="/viso.png"
+                width={200}
+                height={200}
+                alt="Grupo Desportivo do Viso logo"
+              />
+              <div className="team-description">
+                <h3>Grupo Desportivo do Viso</h3>
+                <p>🇵🇹 Portugal</p>
+              </div>
+            </div>
+
+            <div>
+              <Image
+                src="/seinajoki.png"
+                width={200}
+                height={200}
+                alt="Seinäjoki United logo"
+              />
+              <div className="team-description">
+                <h3>Seinäjoki United</h3>
+                <p>🇫🇮 Finland</p>
+              </div>
             </div>
           </div>
-
-          <div>
-            <Image
-              src="/viso.png"
-              width={200}
-              height={200}
-              alt="Grupo Desportivo do Viso logo"
-            />
-            <div className="team-description">
-              <h3>Grupo Desportivo do Viso</h3>
-              <p>Portugal</p>
+          <div
+            style={{ gridColumn: "1/3", margin: "auto" }}
+            className="grid grid-cols-2 gap-16"
+          >
+            <div>
+              <Image
+                src="/mladost.svg"
+                width={200}
+                height={200}
+                alt="Mladost Club badge"
+              />
+              <div className="team-description">
+                <h3>HAHK Mladost</h3>
+                <p>🇭🇷 Croatia</p>
+              </div>
             </div>
-          </div>
-
-          <div>
-            <Image
-              src="/seinajoki.png"
-              width={200}
-              height={200}
-              alt="Seinäjoki United logo"
-            />
-            <div className="team-description">
-              <h3>Seinäjoki United</h3>
-              <p>Finland</p>
-            </div>
-          </div>
-
-          <div>
-            <Image
-              src="/mladost.svg"
-              width={200}
-              height={200}
-              alt="Mladost Club badge"
-            />
-            <div className="team-description">
-              <h3>HAHK Mladost</h3>
-              <p>Croatia</p>
-            </div>
-          </div>
-          <div>
-            <Image
-              src="/mesaicos.png"
-              width={200}
-              height={200}
-              alt="SLF Mesaicos logo"
-            />
-            <div className="team-description">
-              <h3>SLF Mesaicos</h3>
-              <p>Sweden</p>
+            <div>
+              <Image
+                src="/mesaicos.png"
+                width={200}
+                height={200}
+                alt="SLF Mesaicos logo"
+              />
+              <div className="team-description">
+                <h3>SLF Mesaicos</h3>
+                <p>🇸🇪 Sweden</p>
+              </div>
             </div>
           </div>
         </section>
@@ -192,8 +200,9 @@ export default function EuroHockey2025() {
         <div>
           <h2>Match Schedule</h2>
           <p className="mt-2">
-            Keep track of the results below or follow the games in real time
-            here.
+            {/* Keep track of the results below or follow the games in real time
+            here. */}
+            Coming soon
           </p>
         </div>
       </section>

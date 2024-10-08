@@ -436,3 +436,14 @@ button.splide__pagination__page.is-active {
     width: 40vw;
   }
 }
+
+/* Euros 2025 */
+
+.ec_teams img {
+  max-height: 200px;
+  width: auto;
+  margin: auto;
+}
+.team-description * {
+  text-align: center;
+}
