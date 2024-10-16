@@ -156,7 +156,7 @@ export default function EuroHockey2025() {
                 src="/seinajoki.png"
                 width={200}
                 height={200}
-                alt="Seinäjoki United logo"
+                alt="Seinajoki United logo"
               />
               <div className="team-description">
                 <h3>Seinäjoki United</h3>
