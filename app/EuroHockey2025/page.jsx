@@ -122,15 +122,15 @@ export default function EuroHockey2025() {
             <h2>Meet the Teams</h2>
           </div>
           <div
-            style={{ gridColumn: "1/3", margin: "auto" }}
+            style={{ gridColumn: "1/3", margin: "auto", width: "100%" }}
             className="grid grid-cols-3 gap-10"
           >
             <div>
               <Image
-                src="/KH-Logo_bw.svg"
+                src="/kh-logo_bw.svg"
                 width={200}
                 height={200}
-                alt="Women's team picture"
+                alt="Københavns Hockeyklub logo"
               />
               <div className="team-description">
                 <h3>Copenhagen Field Hockey</h3>
@@ -165,21 +165,22 @@ export default function EuroHockey2025() {
             </div>
           </div>
           <div
-            style={{ gridColumn: "1/3", margin: "auto" }}
-            className="grid grid-cols-2 gap-16"
+            style={{ gridColumn: "1/3", margin: "auto", width: "100%" }}
+            className="grid grid-cols-3 gap-10"
           >
             <div>
               <Image
                 src="/mladost.svg"
                 width={200}
                 height={200}
-                alt="Mladost Club badge"
+                alt="HAHK Mladost logo"
               />
               <div className="team-description">
                 <h3>HAHK Mladost</h3>
                 <p>🇭🇷 Croatia</p>
               </div>
             </div>
+
             <div>
               <Image
                 src="/mesaicos.png"
@@ -190,6 +191,19 @@ export default function EuroHockey2025() {
               <div className="team-description">
                 <h3>SLF Mesaicos</h3>
                 <p>🇸🇪 Sweden</p>
+              </div>
+            </div>
+
+            <div>
+              <Image
+                src="/orient.png"
+                width={200}
+                height={200}
+                alt="Orient Lungby logo"
+              />
+              <div className="team-description">
+                <h3>Orient Lyngby</h3>
+                <p>🇩🇰 Denmark</p>
               </div>
             </div>
           </div>
