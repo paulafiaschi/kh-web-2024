@@ -153,7 +153,7 @@ export default function EuroHockey2025() {
 
             <div>
               <Image
-                src="/seinajoki.png"
+                src="/finland.png"
                 width={200}
                 height={200}
                 alt="Seinajoki United logo"
