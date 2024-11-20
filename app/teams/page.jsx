@@ -19,7 +19,7 @@ export default function Teams() {
         <TeamCard
           team="Women's"
           image="ladies2023.jpg"
-          time="Tue and Thu 18:30 - 20:00"
+          time="Mon 20:30 - 22:00 | Wed 19:00 - 20:30"
           name="Fay"
           contact="faybrasser@gmail.com"
           form="https://www.holdsport.dk/team_invitation/139527/bfab9e39d968a64582c573e3995632a876a31dfa?fbclid=IwAR2LA-kzYiygh4FoXHkjDBBFvZfza0qXiDqaXLWaRtGN78zYa1QONDSwRrE"
@@ -28,7 +28,7 @@ export default function Teams() {
         <TeamCard
           team="Men's"
           image="men-2024.jpg"
-          time="Tue and Thu 19:30 - 21:30"
+          time="Mon and Wed 20:30 - 22:00"
           name="Barnes"
           contact="j.luke@gmx.com"
           form="https://www.holdsport.dk/team_invitation/139528/4fad7b974cc5ac639e59d3e3cda15986fd1d10a9?fbclid=IwAR2eenwpH8YeicDxjp6WQrWqrj3sWTgLw3mnXY0XMNDYPR5xTEj6PpKcUmQ"
@@ -37,7 +37,7 @@ export default function Teams() {
         <TeamCard
           team="Youth"
           image="youth.jpg"
-          time="Thu 17:30 - 18:30"
+          time="Wed 18:00 - 19:00"
           name="Morten"
           contact="mortenreynhard@gmail.com"
           form="https://www.holdsport.dk/team_invitation/139531/dcdb16a148c7b193ea7c18ba7aa2901adfd4c9df?fbclid=IwAR3dFGEzoji_hJ9yT9hPKSNVZUjL7rLR9SkByOq3vu6Aovi1lyf8dqBLtDg"

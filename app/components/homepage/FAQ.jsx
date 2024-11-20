@@ -74,9 +74,9 @@ export default function FAQ() {
           <p className="mt-2">
             <b>Indoor &#40;November to beginning of March&#41;</b>
             <br></br>
-            &emsp;Women&apos;s Team: Wed 19:0 - 20:30<br></br>
+            &emsp;Women&apos;s Team: Wed 19:00 - 20:30<br></br>
             &emsp;Men&apos;s Team: Wed 20:30-22:30<br></br>&emsp;&emsp;+ Mix
-            practice on Mondays 21:00-22:30<br></br>
+            practice on Mondays 20:30-22:00<br></br>
             &emsp;Youth Team: Wed 18:00-19:00<br></br>
           </p>
         </div>
