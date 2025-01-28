@@ -14,8 +14,8 @@ export default function EuroHockey2025() {
         <div>
           <h2>Welcome to Copenhagen Field Hockey Club</h2>
           <p className="mt-2">
-            We are delighted to welcome teams from Sweden, Portugal, Finland and
-            Croatia to the EuroHockey Club Challenge II (Women), from{" "}
+            We are delighted to welcome teams from Sweden, Finland and Denmark
+            to the EuroHockey Club Challenge II (Women), from{" "}
             <b>June 6th to 9th, 2025</b>.
           </p>
 
@@ -54,16 +54,7 @@ export default function EuroHockey2025() {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-        {/* <div>
-          <figure>
-            <Image
-              src="/ladies2023.jpg"
-              width={900}
-              height={500}
-              alt="Ladies Team picture"
-            />
-          </figure>
-        </div> */}
+
         <div>
           <p className="mt-2">
             Our club is located in Valby&apos;s Idrætspark, and the tournament
@@ -123,7 +114,7 @@ export default function EuroHockey2025() {
           </div>
           <div
             style={{ gridColumn: "1/3", margin: "auto", width: "100%" }}
-            className="grid grid-cols-3 gap-10"
+            className="grid grid-cols-2 gap-10"
           >
             <div>
               <Image
@@ -140,20 +131,7 @@ export default function EuroHockey2025() {
 
             <div>
               <Image
-                src="/viso.png"
-                width={200}
-                height={200}
-                alt="Grupo Desportivo do Viso logo"
-              />
-              <div className="team-description">
-                <h3>Grupo Desportivo do Viso</h3>
-                <p>🇵🇹 Portugal</p>
-              </div>
-            </div>
-
-            <div>
-              <Image
-                src="/finland.png"
+                src="/finland-black.png"
                 width={200}
                 height={200}
                 alt="Seinajoki United logo"
@@ -166,21 +144,8 @@ export default function EuroHockey2025() {
           </div>
           <div
             style={{ gridColumn: "1/3", margin: "auto", width: "100%" }}
-            className="grid grid-cols-3 gap-10"
+            className="grid grid-cols-2 gap-10"
           >
-            <div>
-              <Image
-                src="/mladost.svg"
-                width={200}
-                height={200}
-                alt="HAHK Mladost logo"
-              />
-              <div className="team-description">
-                <h3>HAHK Mladost</h3>
-                <p>🇭🇷 Croatia</p>
-              </div>
-            </div>
-
             <div>
               <Image
                 src="/mesaicos.png"
@@ -211,13 +176,189 @@ export default function EuroHockey2025() {
       </div>
 
       <section className="justify-center">
-        <div>
+        <div style={{ gridColumn: "1/3" }}>
           <h2>Match Schedule</h2>
-          <p className="mt-2">
-            {/* Keep track of the results below or follow the games in real time
-            here. */}
-            Coming soon
+
+          <p className="mt-8 font-bold">
+            Friday 6<sup>th</sup> June 2025
           </p>
+          <div className="game">
+            <p className="time">15.45h</p>
+            <div className="team-scheduleA">
+              <Image
+                src="/finland-black.png"
+                width={50}
+                height={50}
+                alt="Seinajoki United logo"
+                className="team-logo"
+              />
+              <p>Seinäjoki United</p>
+            </div>
+            <p>vs</p>
+            <div className="team-scheduleB">
+              <Image
+                src="/orient.png"
+                width={50}
+                height={50}
+                alt="Seinajoki United logo"
+                className="team-logo"
+              />
+              <p>Orient Lyngby</p>
+            </div>
+          </div>
+          <div className="game">
+            <p className="time">18.00h</p>
+            <div className="team-scheduleA">
+              <Image
+                src="/mesaicos.png"
+                width={50}
+                height={50}
+                alt="Mesaicos logo"
+                className="team-logo"
+              />
+              <p>SLF Mesaicos</p>
+            </div>
+            <p>vs</p>
+            <div className="team-scheduleB">
+              <Image
+                src="/kh-logo_bw.svg"
+                width={50}
+                height={50}
+                alt="Københavns Hockeyklub logo"
+                className="team-logo"
+              />
+              <p>Copenhagen HC</p>
+            </div>
+          </div>
+
+          <p className="mt-8 font-bold">
+            Saturday 7<sup>th</sup> June 2025
+          </p>
+          <div className="game">
+            <p className="time">13.45h</p>
+            <div className="team-scheduleA">
+              <Image
+                src="/finland-black.png"
+                width={50}
+                height={50}
+                alt="Seinajoki United logo"
+                className="team-logo"
+              />
+              <p>Seinäjoki United</p>
+            </div>
+            <p>vs</p>
+            <div className="team-scheduleB">
+              <Image
+                src="/mesaicos.png"
+                width={50}
+                height={50}
+                alt="SLF Mesaicos logo"
+                className="team-logo"
+              />
+              <p>SLF Mesaicos</p>
+            </div>
+          </div>
+          <div className="game">
+            <p className="time">16.00h</p>
+            <div className="team-scheduleA">
+              <Image
+                src="/kh-logo_bw.svg"
+                width={50}
+                height={50}
+                alt="Copenhagen Hockey Club logo"
+                className="team-logo"
+              />
+              <p>Copenhagen HC</p>
+            </div>
+            <p>vs</p>
+            <div className="team-scheduleB">
+              <Image
+                src="/orient.png"
+                width={50}
+                height={50}
+                alt="Orient logo"
+                className="team-logo"
+              />
+              <p>Orient Lyngby</p>
+            </div>
+          </div>
+
+          <p className="mt-8 font-bold">
+            Sunday 8<sup>th</sup> June 2025
+          </p>
+          <div className="game">
+            <p className="time">11.45h</p>
+            <div className="team-scheduleA">
+              <Image
+                src="/mesaicos.png"
+                width={50}
+                height={50}
+                alt="Mesaicos logo"
+                className="team-logo"
+              />
+              <p>SLF Mesaicos</p>
+            </div>
+            <p>vs</p>
+            <div className="team-scheduleB">
+              <Image
+                src="/orient.png"
+                width={50}
+                height={50}
+                alt="Orient logo"
+                className="team-logo"
+              />
+              <p>Orient Lyngby</p>
+            </div>
+          </div>
+          <div className="game">
+            <p className="time">14.00h</p>
+            <div className="team-scheduleA">
+              <Image
+                src="/kh-logo_bw.svg"
+                width={50}
+                height={50}
+                alt="Københavns Hockeyklub logo"
+                className="team-logo"
+              />
+              <p>Copenhagen HC</p>
+            </div>
+            <p>vs</p>
+            <div className="team-scheduleB">
+              <Image
+                src="/finland-black.png"
+                width={50}
+                height={50}
+                alt=" Seinäjoki Unitedlogo"
+                className="team-logo"
+              />
+              <p>Seinäjoki United</p>
+            </div>
+          </div>
+
+          <p className="mt-8 font-bold">
+            Monday 9<sup>th</sup> June 2025
+          </p>
+          <div className="game">
+            <p className="time">9.45h</p>
+            <div className="team-scheduleA">
+              <p>3rd Pool A</p>
+            </div>
+            <p>vs</p>
+            <div className="team-scheduleB">
+              <p>4th Pool A</p>
+            </div>
+          </div>
+          <div className="game">
+            <p className="time">12.00h</p>
+            <div className="team-scheduleA">
+              <p>1st Pool A</p>
+            </div>
+            <p>vs</p>
+            <div className="team-scheduleB">
+              <p>2nd Pool A</p>
+            </div>
+          </div>
+          <p className="mt-8 font-bold">13.45h Prize Giving Ceremony</p>
         </div>
       </section>
     </>
