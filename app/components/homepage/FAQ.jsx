@@ -105,6 +105,18 @@ export default function FAQ() {
         </div>
       </div>
       <div className="collapse collapse-arrow rounded-none">
+        <input type="radio" name="my-accordion-1" aria-labelledby="fee" />
+        <div className="collapse-title text-xl font-medium">
+          Does the membership get cancelled automatically when I stop playing?
+        </div>
+        <div className="collapse-content">
+          <p>
+            No, this is a subscription, like any other. If you want out, you
+            need to do it yourself before the next automatic payment.
+          </p>
+        </div>
+      </div>
+      <div className="collapse collapse-arrow rounded-none">
         <input type="radio" name="my-accordion-1" aria-labelledby="equipment" />
         <div className="collapse-title text-xl font-medium">
           I don&apos;t have any hockey gear with me. Can I borrow from the club?
