@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import SubHero from "../components/teams/SubHero";
 import FAQ from "../components/homepage/FAQ";
+import CarouselSectionAbout from "../components/about/CarouselSectionAbout";
 
 export default function AboutUs() {
   return (
@@ -20,17 +21,29 @@ export default function AboutUs() {
           <h2 className="text-5xl">
             Building a Legacy of Excellence in Hockey
           </h2>
-        </div>
-        <div>
           <p className="mb-4">
             Welcome to our richly historic hockey club in Copenhagen, dedicated
             to promoting the sport and providing opportunities for players of
-            all ages and skill levels to thrive. Join our diverse community and
-            experience the joy of hockey today!
+            all ages and skill levels to thrive.
+          </p>
+          <p className="mb-4">
+            Join our diverse community and experience the joy of hockey today!
           </p>
           <Link href="/teams" className="link-hover text-sm link-accent">
             Explore our Teams &#9656;
           </Link>
+        </div>
+        <div>
+          <video
+            src="/video.mp4"
+            width={700}
+            height={700}
+            autoPlay
+            loop
+            muted
+            playsInline
+            controls
+          ></video>
         </div>
       </section>
 
@@ -183,6 +196,136 @@ export default function AboutUs() {
           </Link>
         </div>
       </section>
+
+      <div className="highlightSection">
+        <section className="justify-center">
+          <div>
+            <h2>Meet the Board</h2>
+            <p className="mb-4">
+              The board at KH is made up of engaged and passionate volunteers
+              who meet once a month to keep the club running smoothly. Meetings
+              are open to all, so feel free to join or talk to a board member if
+              you have ideas, questions, or concerns.
+            </p>
+          </div>
+          <div className="board">
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+                <Image
+                  src="/tobias.jpg"
+                  width={100}
+                  height={100}
+                  alt="Tobias Mourier - chairman"
+                />
+              </div>
+              <p>
+                Tobias Mourier<br></br>
+                <i>Chairman</i>
+              </p>
+            </div>
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+                <Image
+                  src="/cecil.jpg"
+                  width={100}
+                  height={100}
+                  alt="Cecilie Jacobsen - treasurer"
+                />
+              </div>
+              <p>
+                Cecilie Jacobsen <br></br>
+                <i>Treasurer</i>
+              </p>
+            </div>
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+                <Image
+                  src="/jj.jpg"
+                  width={100}
+                  height={100}
+                  alt="Jesper Jonasson - Member"
+                />
+              </div>
+              <p>
+                Jesper Jonasson <br></br>
+                <i>Member</i>
+              </p>
+            </div>
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+                <Image
+                  src="/munde.png"
+                  width={100}
+                  height={100}
+                  alt="Rasmus Mundeling - Member"
+                />
+              </div>
+              <p>
+                Rasmus Mundeling <br></br>
+                <i>Member</i>
+              </p>
+            </div>
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+                <Image
+                  src="/fay.jpg"
+                  width={100}
+                  height={100}
+                  alt="Fay Brasser - Member"
+                />
+              </div>
+              <p>
+                Fay Brasser <br></br>
+                <i>Member</i>
+              </p>
+            </div>
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+                <Image
+                  src="/pau.png"
+                  width={100}
+                  height={100}
+                  alt="Pau Fiaschi - Member"
+                />
+              </div>
+              <p>
+                Pau Fiaschi <br></br>
+                <i>Member</i>
+              </p>
+            </div>
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+                <Image
+                  src="/matilde.jpg"
+                  width={100}
+                  height={100}
+                  alt="Matilde Lundberg Christensen - Deputy Member"
+                />
+              </div>
+              <p>
+                Matilde Lundberg Christensen <br></br>
+                <i>Deputy Member</i>
+              </p>
+            </div>
+            <div className="avatar">
+              <div className="ring-primary ring-offset-base-100 w-24 rounded-full ring-2 ring-offset-2">
+                <Image
+                  src="/christian.jpg"
+                  width={100}
+                  height={100}
+                  alt="Christian Møller - Deputy Member"
+                />
+              </div>
+              <p>
+                Christian Møller <br></br>
+                <i>Deputy Member</i>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <CarouselSectionAbout />
+
       <FAQ />
     </>
   );

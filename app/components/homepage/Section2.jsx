@@ -8,14 +8,15 @@ export default function Section2() {
           Celebrating Success: Our Journey in the Top Division of Danish Hockey
         </h2>
         <p>
-          As a hockey club, we take pride in our participation in the top
-          division in Denmark. With recent achievements and accolades, we have
-          established ourselves as a competitive force in the league.
+          As a hockey club, we take pride in our participation in the{" "}
+          <b>top division in Denmark</b>. With recent achievements and
+          accolades, we have established ourselves as a competitive force in the
+          league.
         </p>
         <p className="mt-4">
-          With our top-notch facilities, including the{" "}
-          <b>best water pitch in Denmark</b>, and our amazing indoor hall, we
-          offer an unparalleled hockey experience.
+          With our top-notch facilities, including the best water pitch in
+          Denmark, and our amazing indoor hall, we offer an unparalleled hockey
+          experience.
         </p>
       </div>
       <Image

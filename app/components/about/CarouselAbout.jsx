@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
-export default function Carousel() {
+export default function CarouselAbout() {
   return (
     <div style={{ gridColumn: "1/3" }}>
       <Splide aria-label="Social Images">

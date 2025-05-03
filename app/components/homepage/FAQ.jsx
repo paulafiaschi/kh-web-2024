@@ -96,7 +96,8 @@ export default function FAQ() {
             Membership fee for the <b>Youth</b> Team is 800 DKK per year.
           </p>
           <p className="mt-2">
-            Membership fee for the <b>Master&apos;</b> Team is 700 DKK per year.
+            Membership fee for the <b>Masters&apos;</b> Team is 700 DKK per
+            year.
           </p>
           <p className="mt-2">
             To be part of our support club <b>&quot;KH&apos;s Venner&quot;</b>{" "}
