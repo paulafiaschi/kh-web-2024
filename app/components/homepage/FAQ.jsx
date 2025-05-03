@@ -89,14 +89,14 @@ export default function FAQ() {
         <div className="collapse-content">
           <p>
             Yes, to join either our <b>Women&apos;s</b> Team or the{" "}
-            <b>Men&apos;s</b> Team, there is a membership fee of 650 DKK billed
+            <b>Men&apos;s</b> Team, there is a membership fee of 750 DKK billed
             twice annually.
           </p>
           <p className="mt-2">
-            Membership fee for the <b>Youth</b> Team is 750 DKK per year.
+            Membership fee for the <b>Youth</b> Team is 800 DKK per year.
           </p>
           <p className="mt-2">
-            Membership fee for the <b>Master&apos;</b> Team is 650 DKK per year.
+            Membership fee for the <b>Master&apos;</b> Team is 700 DKK per year.
           </p>
           <p className="mt-2">
             To be part of our support club <b>&quot;KH&apos;s Venner&quot;</b>{" "}
