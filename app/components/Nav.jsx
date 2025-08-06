@@ -45,9 +45,9 @@ export default function Nav() {
           <li>
             <Link href="#FAQ">FAQ</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/EuroHockey2025">EuroHockey 2025</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="navbar-end">
